@@ -7,8 +7,8 @@
       "ikona":      "",
       "titulek":    "Dress code",
       "titulek_en": "Dress code",
-      "text":    "Business Casual - Business Formal - Semi-Formal. Pokud se s námi chcete sladit, doporučené barvy jsou tmavě modrá a terracotta, barvy však nejsou povinné. Obřad bude venku na trávě – doporučujeme pohodlnou obuv.",
-      "text_en": "Business Casual - Business Formal - Semi-Formal. If you'd like to coordinate with us, the suggested colours are navy blue and terracotta, though the colours are not mandatory. The ceremony will be held outdoors on grass – comfortable shoes are recommended."
+      "text":    "Business Casual - Business Formal - Semi-Formal. Dámám doporučujeme koktejlové nebo večerní šaty, pánům oblek. Pokud se s námi chcete sladit, barvy jsou tmavě modrá a terracotta, barvy však nejsou povinné. Obřad bude venku na trávě – doporučujeme pohodlnou obuv.",
+      "text_en": "Business Casual - Business Formal - Semi-Formal. For ladies, we recommend cocktail or evening dresses, and suits for men. If you'd like to coordinate with us, the colours are navy blue and terracotta, though the colours are not mandatory. The ceremony will be held outdoors on grass – comfortable shoes are recommended."
     },
     {
       "ikona":      "",
@@ -40,7 +40,7 @@
       "odkaz": {
         "text":    "Nahrát fotky na Google Disk",
         "text_en": "Upload photos to Google Drive",
-        "url": "VLOŽTE_ZDE_URL_SDÍLENÉ_SLOŽKY"
+        "url": "https://photos.app.goo.gl/Mpns7SddVykA5xg78"
       }
     },
 	{
