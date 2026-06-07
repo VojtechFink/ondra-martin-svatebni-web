@@ -124,6 +124,14 @@ a:hover { color: var(--clr-amber); }
 .nav__link:hover  { color: var(--clr-amber) !important; }
 .nav.scrolled .nav__link:hover { color: var(--clr-accent) !important; }
 
+.nav__link--gallery::after { display: none; }
+.nav__link--gallery {
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  padding: 0.15em 0.55em !important;
+  opacity: 0.85;
+}
+
 /* Hamburger */
 .nav__toggle {
   display: none;
@@ -905,6 +913,32 @@ a:hover { color: var(--clr-amber); }
   letter-spacing: 0.1em;
   opacity: 0.55;
   position: relative;
+}
+
+.footer__legal {
+  font-size: 0.72rem;
+  opacity: 0.5;
+  max-width: 600px;
+  margin: 0.8rem auto 0;
+  line-height: 1.6;
+  position: relative;
+}
+
+.footer__copyright {
+  font-size: 0.75rem;
+  opacity: 0.55;
+  margin-top: 0.3rem;
+  position: relative;
+}
+
+.footer__credit {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+  font-size: 0.65rem;
+  opacity: 0.35;
+  font-style: italic;
+  color: rgba(255,255,255,0.7);
 }
 
 /* =====================================================

@@ -543,6 +543,8 @@ async function submitFormData(data) {
 function initFooter() {
   const yearEl = el('footerYear');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
+  const legalYearEl = el('footerLegalYear');
+  if (legalYearEl) legalYearEl.textContent = new Date().getFullYear();
 }
 
 // --- Render vsech dynamickych sekci ---

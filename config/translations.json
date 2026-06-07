@@ -6,7 +6,8 @@
       "informace":"Informace",
       "pribeh":   "Náš příběh",
       "uzitecne": "Užitečné info",
-      "formular": "Potvrzení účasti"
+      "formular": "Potvrzení účasti",
+      "galerie":  "Galerie"
     },
     "hero": {
       "pre": "Zveme Vás na naši svatbu",
@@ -32,6 +33,9 @@
       "dekujeme": "Děkujeme!",
       "dospeli": "Dospělí",
       "deti": "Děti"
+    },
+    "footer": {
+      "legal": "Veškerý obsah těchto stránek, včetně fotografií a textů, je chráněn autorským právem. Šíření bez souhlasu autorů není dovoleno."
     }
   },
   "en": {
@@ -41,7 +45,8 @@
       "informace":"Details",
       "pribeh":   "Our Story",
       "uzitecne": "Useful info",
-      "formular": "RSVP"
+      "formular": "RSVP",
+      "galerie":  "Gallery"
     },
     "hero": {
       "pre": "You are invited to our wedding",
@@ -67,6 +72,9 @@
       "dekujeme": "Thank you!",
       "dospeli": "Adults",
       "deti": "Children"
+    },
+    "footer": {
+      "legal": "All content on this website, including photos and texts, is protected by copyright. Reproduction without the authors' consent is not permitted."
     }
   }
 }
