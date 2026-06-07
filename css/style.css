@@ -561,6 +561,68 @@ a:hover { color: var(--clr-amber); }
 .map-placeholder__icon { font-size: 2.5rem; opacity: 0.4; }
 
 /* =====================================================
+   SEKCE: NÁŠ PŘÍBĚH
+   ===================================================== */
+.story-chapter {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+.story-chapter:last-child { margin-bottom: 0; }
+
+.story-chapter--img-right { flex-direction: row; }
+.story-chapter--img-left  { flex-direction: row-reverse; }
+
+.story-chapter__img-wrap {
+  flex: 0 0 42%;
+  max-width: 42%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-medium);
+}
+.story-chapter__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.story-chapter__img-wrap:hover .story-chapter__img {
+  transform: scale(1.03);
+}
+
+.story-chapter__body { flex: 1; }
+
+.story-chapter__title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--clr-gold);
+  margin-bottom: 0.8rem;
+}
+
+.story-chapter__text {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--clr-text);
+}
+
+@media (max-width: 700px) {
+  .story-chapter,
+  .story-chapter--img-left,
+  .story-chapter--img-right {
+    flex-direction: column;
+  }
+  .story-chapter__img-wrap {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+  .story-chapter__img { height: 220px; }
+}
+
+/* =====================================================
    SEKCE: UŽITEČNÉ INFORMACE
    ===================================================== */
 .uzitecne-grid {

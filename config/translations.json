@@ -4,6 +4,7 @@
     "nav": {
       "uvod":     "Úvod",
       "informace":"Informace",
+      "pribeh":   "Náš příběh",
       "uzitecne": "Užitečné info",
       "formular": "Potvrzení účasti"
     },
@@ -38,6 +39,7 @@
     "nav": {
       "uvod":     "Home",
       "informace":"Details",
+      "pribeh":   "Our Story",
       "uzitecne": "Useful info",
       "formular": "RSVP"
     },

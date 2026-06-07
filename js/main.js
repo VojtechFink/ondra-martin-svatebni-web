@@ -279,6 +279,28 @@ async function loadUzitecne() {
   }).join('');
 }
 
+// --- Sekce PŘÍBĚH ---
+
+async function loadPribeh() {
+  const cfg = await loadJSON('config/pribeh.json');
+
+  el('pribehTitle').textContent    = loc(cfg, 'nadpis');
+  el('pribehSubtitle').textContent = loc(cfg, 'podnadpis');
+
+  el('pribehKapitoly').innerHTML = (cfg.kapitoly || []).map(function(k, i) {
+    const vlevo = k.obrazek_pozice === 'vlevo';
+    return '<div class="story-chapter ' + (vlevo ? 'story-chapter--img-left' : 'story-chapter--img-right') + ' reveal">' +
+      (k.obrazek
+        ? '<div class="story-chapter__img-wrap"><img src="' + k.obrazek + '" alt="' + loc(k, 'titulek') + '" class="story-chapter__img" loading="lazy"></div>'
+        : '') +
+      '<div class="story-chapter__body">' +
+      (loc(k, 'titulek') ? '<h3 class="story-chapter__title">' + loc(k, 'titulek') + '</h3>' : '') +
+      '<p class="story-chapter__text">' + loc(k, 'text') + '</p>' +
+      '</div>' +
+      '</div>';
+  }).join('');
+}
+
 // --- Sekce FORMULAR ---
 
 let _formConfig = null;
@@ -527,7 +549,7 @@ function initFooter() {
 
 async function renderAll() {
   try {
-    await Promise.all([loadInformace(), loadUzitecne(), loadFormular()]);
+    await Promise.all([loadInformace(), loadUzitecne(), loadPribeh(), loadFormular()]);
   } catch (err) {
     console.error('Chyba pri nacitani konfigurace:', err);
     console.warn('Otevírejte přes HTTP server (ne file://). Viz README.md.');
