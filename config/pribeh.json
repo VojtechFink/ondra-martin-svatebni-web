@@ -7,27 +7,27 @@
 
   "kapitoly": [
     {
-      "titulek":    "Jak jsme se poznali",
-      "titulek_en": "How we met",
-      "text":    "Zde napište text první kapitoly. Můžete popsat, jak jste se poznali, kde to bylo a co vás na sobě zaujalo.",
-      "text_en": "Write the text of the first chapter here. You can describe how you met, where it was and what caught your attention.",
+      "titulek":    "Kladská",
+      "titulek_en": "Kladská",
+      "text":    "Náš svatební příběh začal minulý rok u Kladského rybníka, kde jsme v překvapení oba klekli na kolena a Martin odešel s prstenem.",
+      "text_en": "Our wedding story began last year at Kladská pond, where, surprisingly, we both dropped to our knees — and Martin walked away with the ring.",
       "obrazek": "Images/ring.jpeg",
       "obrazek_pozice": "vpravo"
     },
     {
-      "titulek":    "Naše první rande",
-      "titulek_en": "Our first date",
-      "text":    "Zde napište text druhé kapitoly. Popište vaše první rande – kde jste byli, co jste dělali a jak se ten večer odehrával.",
-      "text_en": "Write the text of the second chapter here. Describe your first date – where you went, what you did and how the evening unfolded.",
-      "obrazek": "Images/Waldsassen.jpeg",
+      "titulek":    "Statek Salajna a skanzen Doubrava",
+      "titulek_en": "Salajna Farm and Doubrava Open-Air Museum",
+      "text":    "Cestou z Kladské jsme obdivovali chebskou hrázděnou architekturu a zároveň si vybrali místo svatby.",
+      "text_en": "On the way back from Kladská, we admired the traditional half-timbered architecture of the Cheb region and at the same time chose the venue for our wedding.",
+      "obrazek": "Images/salajna_2.jpeg",
       "obrazek_pozice": "vlevo"
     },
     {
-      "titulek":    "Zasnoubení",
-      "titulek_en": "The proposal",
-      "text":    "Zde napište text třetí kapitoly. Popište, jak proběhlo zasnoubení – kde to bylo, jak jste se cítili a co jste si řekli.",
-      "text_en": "Write the text of the third chapter here. Describe how the proposal happened – where it was, how you felt and what you said to each other.",
-      "obrazek": "Images/dress.jpeg",
+      "titulek":    "Waldsassen",
+      "titulek_en": "Waldsassen",
+      "text":    "Německá část našeho příběhu se odehrála v bavorském Waldsassenu (27 km od Salajny), kde doporučujeme navštívit krásnou barokní knihovnu.",
+      "text_en": "The German chapter of our story took place in the Bavarian town of Waldsassen (27 km from Salajna), where we highly recommend visiting the stunning Baroque library.",
+      "obrazek": "Images/Waldsassen.jpeg",
       "obrazek_pozice": "vpravo"
     }
   ]

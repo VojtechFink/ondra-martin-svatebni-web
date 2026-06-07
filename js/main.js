@@ -177,7 +177,7 @@ function initReveal() {
 }
 
 function observeReveal() {
-  document.querySelectorAll('.info-card, .program-item, .uzitecne-card, .map-card, .food-item, .form').forEach(function(node) {
+  document.querySelectorAll('.info-card, .program-item, .uzitecne-card, .map-card, .food-item, .form, .story-chapter').forEach(function(node) {
     node.classList.add('reveal');
     window._revealObserver.observe(node);
   });
