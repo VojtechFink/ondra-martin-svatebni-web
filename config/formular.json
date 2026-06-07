@@ -46,21 +46,21 @@
         {
           "id":       "polévka 2",
           "nazev":    "Dýňová polévka",
-          "nazev_en": "Pumpink soup"
+          "nazev_en": "Pumpkin soup"
         },
         {
           "id":       "svickova",
           "nazev":    "Hovězí svíčková na smetaně",
           "nazev_en": "Beef sirloin in cream sauce",
-          "popis":    "S karlovarským knedníkem a brusinkami",
+          "popis":    "S karlovarským knedlíkem a brusinkami",
           "popis_en": "With Carlsbad dumplings and cranberries"
         },
         {
           "id":       "vegetarian",
           "nazev":    "Vegetariánské curry",
           "nazev_en": "Vegetarian Curry",
-          "popis":    "S ríží basmaty",
-          "popis_en": "With Basmaty rice"
+          "popis":    "S rýží basmati",
+          "popis_en": "With basmati rice"
         }
       ]
     }
