@@ -1,0 +1,54 @@
+﻿{
+  "nadpis":    "Užitečné informace",
+  "nadpis_en": "Useful information",
+
+  "sekce": [
+    {
+      "ikona":      "",
+      "titulek":    "Dress code",
+      "titulek_en": "Dress code",
+      "text":    "Bussiness Cassual - Bussiness Formal - Semi-Formal. Pokud se s námi chcete sladit, doporučené barvy jsou tmavě modrá a terracotta, barvy však nejsou povinné. Obřad bude venku na trávě – doporučujeme pohodlnou obuv.",
+      "text_en": "Bussiness Casual - Business Formal - Semi-Formal. If you'd like to coordinate with us, the suggested colours are navy blue and terracotta, though the colours are not mandatory. The ceremony will be held outdoors on grass – comfortable shoes are recommended."
+    },
+    {
+      "ikona":      "",
+      "titulek":    "Parkování",
+      "titulek_en": "Parking",
+      "text":    "Bezplatné parkování je k dispozici přímo u statku. Doporučujeme přijet alespoň 30 minut před zahájením obřadu.",
+      "text_en": "Free parking is available directly at the venue. We recommend arriving at least 30 minutes before the ceremony."
+    },
+    {
+      "ikona":      "",
+      "titulek":    "Ubytování",
+      "titulek_en": "Accommodation",
+      "text":    "Pro hosty z daleka je zajištěno ubytování přímo v areálu statku.",
+      "text_en": "Accommodation is provided directly on the estate for guests travelling from afar."
+    },
+    {
+      "ikona":      "",
+      "titulek":    "Dárky",
+      "titulek_en": "Gifts",
+      "text":    "Největším dárkem je vaše přítomnost. Pokud nám přesto chcete udělat radost, budeme vděčni za příspěvek do naší svatební kasičky.",
+      "text_en": "Your presence is the greatest gift. If you still wish to give something, we would gratefully welcome a contribution to our wedding fund."
+    },
+    {
+      "ikona":      "",
+      "titulek":    "Sdílená galerie fotek",
+      "titulek_en": "Shared photo gallery",
+      "text":    "Zachyťte vaše vzpomínky a sdílejte je s námi! Nahrávejte fotky ze svatebního dne přímo do naší sdílené složky na Google Disku.",
+      "text_en": "Capture your memories and share them with us! Upload your photos from the wedding day directly to our shared Google Drive folder.",
+      "odkaz": {
+        "text":    "Nahrát fotky na Google Disk",
+        "text_en": "Upload photos to Google Drive",
+        "url": "VLOŽTE_ZDE_URL_SDÍLENÉ_SLOŽKY"
+      }
+    },
+	{
+      "ikona":      "",
+      "titulek":    "Dětský koutek",
+      "titulek_en": "Children's Corner",
+      "text":    "Pokud sebou potřebujete vzít děti, je zajištěn dětský koutek bez dozoru dospělého.",
+      "text_en": "If you need to bring your children with you, there is an unsupervised children's corner available."
+    }
+  ]
+}

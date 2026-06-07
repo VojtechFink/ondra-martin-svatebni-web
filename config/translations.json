@@ -1,0 +1,70 @@
+{
+  "cs": {
+    "title_prefix": "Svatba",
+    "nav": {
+      "uvod":     "Úvod",
+      "informace":"Informace",
+      "uzitecne": "Užitečné info",
+      "formular": "Potvrzení účasti"
+    },
+    "hero": {
+      "pre": "Zveme Vás na naši svatbu",
+      "btn": "Potvrdit účast"
+    },
+    "countdown": {
+      "dni":    "dní",
+      "hodin":  "hodin",
+      "minut":  "minut",
+      "sekund": "sekund",
+      "dnes":   "Dnes je ten den! 🎉"
+    },
+    "sekce": {
+      "program":          "Program dne",
+      "mapy":             "Kde nás najdete",
+      "mapa_placeholder": "Mapa bude doplněna v konfiguraci"
+    },
+    "form": {
+      "err_jmeno": "Prosím zadejte své jméno.",
+      "err_ucast":  "Prosím vyberte svou účast.",
+      "sending":    "Odesílám…",
+      "err_send":   "Nastala chyba při odesílání. Zkuste to prosím znovu, nebo nás kontaktujte přímo.",
+      "dekujeme": "Děkujeme!",
+      "dospeli": "Dospělí",
+      "deti": "Děti"
+    }
+  },
+  "en": {
+    "title_prefix": "Wedding",
+    "nav": {
+      "uvod":     "Home",
+      "informace":"Details",
+      "uzitecne": "Useful info",
+      "formular": "RSVP"
+    },
+    "hero": {
+      "pre": "You are invited to our wedding",
+      "btn": "RSVP"
+    },
+    "countdown": {
+      "dni":    "days",
+      "hodin":  "hours",
+      "minut":  "minutes",
+      "sekund": "seconds",
+      "dnes":   "Today is the day! 🎉"
+    },
+    "sekce": {
+      "program":          "Day Schedule",
+      "mapy":             "Where to find us",
+      "mapa_placeholder": "Map coming soon"
+    },
+    "form": {
+      "err_jmeno": "Please enter your name.",
+      "err_ucast":  "Please select your attendance.",
+      "sending":    "Sending…",
+      "err_send":   "An error occurred. Please try again or contact us directly.",
+      "dekujeme": "Thank you!",
+      "dospeli": "Adults",
+      "deti": "Children"
+    }
+  }
+}

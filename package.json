@@ -1,0 +1,16 @@
+{
+  "name": "ondra_martin_svatebni_web",
+  "version": "1.0.0",
+  "description": "Kompletní statický svatební web bez potřeby backendu.  \r Veškerý obsah se mění **pouze v souborech ve složce `config/`** – bez dotyku HTML/CSS/JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jimp": "^1.6.1"
+  }
+}

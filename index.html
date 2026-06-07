@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Naše Svatba</title>
+  <meta name="description" content="Zveme vás na naši svatbu">
+  <meta property="og:title" content="Naše Svatba">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ====== NAVIGACE ====== -->
+  <nav class="nav" id="nav" aria-label="Hlavní navigace">
+    <div class="nav__container">
+      <a href="#uvod" class="nav__logo" id="navLogo">O & M</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Otevřít menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__list" id="navList" role="list">
+        <li><a href="#uvod"      class="nav__link" data-i18n="nav.uvod">Úvod</a></li>
+        <li><a href="#informace" class="nav__link" data-i18n="nav.informace">Informace</a></li>
+        <li><a href="#uzitecne"  class="nav__link" data-i18n="nav.uzitecne">Užitečné info</a></li>
+        <li><a href="#formular"  class="nav__link" data-i18n="nav.formular">Potvrzení účasti</a></li>
+      </ul>
+      <div class="nav__lang" id="navLang" aria-label="Výběr jazyka / Language">
+        <button class="nav__lang-btn" data-lang="cs" aria-label="Česky">CZ</button>
+        <span class="nav__lang-sep" aria-hidden="true">|</span>
+        <button class="nav__lang-btn" data-lang="en" aria-label="English">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== HERO / ÚVOD ====== -->
+  <section class="hero" id="uvod" aria-label="Uvítací sekce">
+    <div class="hero__leaves" id="heroLeaves" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <img
+      src="Images/Main_panel_picture.png"
+      alt="Svatební foto"
+      class="hero__bg"
+      fetchpriority="high"
+      loading="eager"
+    >
+    <div class="hero__content">
+      <p class="hero__pre" data-i18n="hero.pre">Zveme Vás na naši</p>
+      <h1 class="hero__title" id="heroTitle">Ondřej & Martina</h1>
+      <span class="hero__ornament" aria-hidden="true">❧</span>
+      <p class="hero__date" id="heroDate">13. září 2025</p>
+      <div class="hero__countdown" id="heroCountdown" aria-live="polite"></div>
+      <a href="#formular" class="hero__btn" data-i18n="hero.btn">Potvrdit účast</a>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span class="hero__scroll-arrow">↓</span>
+    </div>
+  </section>
+
+  <!-- ====== INFORMACE ====== -->
+  <section class="section" id="informace">
+    <div class="section__leaf-deco section__leaf-deco--left" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title" id="infoTitle">Informace o svatbě</h2>
+        <p class="section__subtitle" id="infoSubtitle"></p>
+      </header>
+
+      <!-- Karty s klíčovými info -->
+      <div class="info-grid" id="infoGrid" role="list"></div>
+
+      <!-- Program dne -->
+      <div id="programContainer"></div>
+
+      <!-- Mapy -->
+      <div id="mapsContainer"></div>
+    </div>
+  </section>
+
+  <!-- ====== UŽITEČNÉ INFORMACE ====== -->
+  <section class="section section--alt" id="uzitecne">
+    <div class="section__leaf-deco section__leaf-deco--right" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title" id="uzitecneTitle">Užitečné informace</h2>
+      </header>
+      <div class="uzitecne-grid" id="uzitecneGrid"></div>
+    </div>
+  </section>
+
+  <!-- ====== POTVRZOVACÍ FORMULÁŘ ====== -->
+  <section class="section" id="formular">
+    <div class="section__leaf-deco section__leaf-deco--left" aria-hidden="true"></div>
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title" id="formTitle">Potvrďte svou účast</h2>
+        <p class="section__subtitle" id="formSubtitle"></p>
+      </header>
+
+      <form class="form" id="rsvpForm" novalidate aria-label="Formulář pro potvrzení účasti">
+        <div id="formFields"></div>
+        <button type="submit" class="form__submit" id="formSubmitBtn">Odeslat potvrzení</button>
+      </form>
+
+      <div class="form__success" id="formSuccess" hidden role="alert"></div>
+    </div>
+  </section>
+
+  <!-- ====== PATIČKA ====== -->
+  <footer class="footer">
+    <div class="footer__leaves" aria-hidden="true"></div>
+    <p class="footer__names" id="footerNames">Ondřej & Martina</p>
+    <p class="footer__heart" aria-hidden="true">♥</p>
+    <p class="footer__year" id="footerYear"></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

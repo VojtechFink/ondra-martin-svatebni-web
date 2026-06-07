@@ -1,0 +1,71 @@
+﻿{
+  "nadpis":    "Potvrďte svou účast",
+  "nadpis_en": "Confirm your attendance",
+
+  "podnadpis":    "Prosíme o potvrzení nejpozději do 10. září 2026",
+  "podnadpis_en": "Please confirm by September 10, 2026",
+
+  "tlacitko":    "Odeslat potvrzení",
+  "tlacitko_en": "Send RSVP",
+
+  "zprava_uspech":    "Děkujeme za potvrzení! Těšíme se na vás!",
+  "zprava_uspech_en": "Thank you for confirming! We look forward to seeing you!",
+
+  "pole": {
+    "jmeno": {
+      "popisek":       "Vaše jméno a příjmení",
+      "popisek_en":    "Your full name",
+      "placeholder":    "Jana Nováková",
+      "placeholder_en": "John Smith"
+    },
+
+    "ucast": {
+      "popisek":    "Vaše účast",
+      "popisek_en": "Your attendance",
+      "moznosti": [
+        { "hodnota": "prijdu",              "text": "Přijdu",                          "text_en": "I will attend" },
+        { "hodnota": "prijdu_s_doprovodem", "text": "Přijdu s doprovodem (1 host navíc)","text_en": "I will attend with a plus-one" },
+        { "hodnota": "prijdu_s_detmi",      "text": "Přijdu s dětmi",                  "text_en": "I will attend with children" },
+        { "hodnota": "neprijdu",            "text": "Bohužel nemohu přijít",           "text_en": "I am unable to attend" }
+      ]
+    },
+
+    "jidlo": {
+      "popisek":       "Výběr oběda",
+      "popisek_en":    "Lunch selection",
+      "podnadpis":     "Vyberte jídla a pomocí tlačítek + / − zadejte počet porcí. Lze vybrat více variant zároveň.",
+      "podnadpis_en":  "Select dishes and use the + / − buttons to set the number of portions. Multiple choices are allowed.",
+      "moznosti": [
+        {
+          "id":       "polévka 1",
+          "nazev":    "Hovězí vývar",
+          "nazev_en": "Beef broth",
+          "popis":    "S jatrovými knedlíčky a nudlemi",
+          "popis_en": "With liver dumplings and noodles"
+        },
+        {
+          "id":       "polévka 2",
+          "nazev":    "Dýňová polévka",
+          "nazev_en": "Pumpink soup"
+        },
+        {
+          "id":       "svickova",
+          "nazev":    "Hovězí svíčková na smetaně",
+          "nazev_en": "Beef sirloin in cream sauce",
+          "popis":    "S karlovarským knedníkem a brusinkami",
+          "popis_en": "With Carlsbad dumplings and cranberries"
+        },
+        {
+          "id":       "vegetarian",
+          "nazev":    "Vegetariánské curry",
+          "nazev_en": "Vegetarian Curry",
+          "popis":    "S ríží basmaty",
+          "popis_en": "With Basmaty rice"
+        }
+      ]
+    }
+  },
+
+  "submit_typ":      "google_sheets",
+  "submit_endpoint": "https://script.google.com/macros/s/AKfycbwa5foyiwrw0b3OZQP9BpX5h4xlH-9YFBJTF8Sd8MEaOBrYLazmOZbiaJpbTiRWeMn2/exec"
+}

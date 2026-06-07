@@ -1,0 +1,36 @@
+{
+  "par": {
+    "zenich1": "Ondra",
+    "zenich2": "Martin"
+  },
+
+  "nadpis":    "Informace o svatbě",
+  "nadpis_en": "Wedding Details",
+
+  "podnadpis":    "Vše, co potřebujete vědět",
+  "podnadpis_en": "Everything you need to know",
+
+  "datum": {
+    "popisek":    "Datum",
+    "popisek_en": "Date",
+    "hodnota": "10.10.2026",
+    "iso":     "2026-10-10T12:00:00"
+  },
+
+  "cas_obradu": {
+    "popisek":    "Začátek obřadu",
+    "popisek_en": "Ceremony starts",
+    "hodnota": "12:00"
+  },
+
+  "misto_obradu": {
+    "popisek":    "Místo obřadu",
+    "popisek_en": "Venue",
+    "nazev":   "statek Salajna",
+    "adresa":  "Salajna 12, 350 02 Dolní Žandov",
+    "google_maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.262564629177!2d12.517409077094248!3d50.0221594181086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a08a8b2fe53f1d%3A0x965cbd92d2f7bc65!2sStatek%20Salajna!5e1!3m2!1scs!2scz!4v1780829607738!5m2!1scs!2scz",
+    "obrazek": "Images/salajna.png"
+  },
+
+  "program": []
+}
