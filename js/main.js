@@ -515,14 +515,19 @@ async function submitFormData(data) {
       tempForm.appendChild(input);
       document.body.appendChild(tempForm);
 
+      let _gs_cleanup_done = false;
       iframe.onload = function() {
-        document.body.removeChild(iframe);
-        document.body.removeChild(tempForm);
+        if (_gs_cleanup_done) return;
+        _gs_cleanup_done = true;
+        if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+        if (tempForm.parentNode) tempForm.parentNode.removeChild(tempForm);
         resolve();
       };
       setTimeout(function() {
-        document.body.removeChild(iframe);
-        document.body.removeChild(tempForm);
+        if (_gs_cleanup_done) return;
+        _gs_cleanup_done = true;
+        if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+        if (tempForm.parentNode) tempForm.parentNode.removeChild(tempForm);
         resolve(); // timeout = stejně považujeme za úspěch
       }, 5000);
 
